@@ -1,0 +1,2 @@
+
+./odoo-bin --addons-path=D:\odoo-fauzan/addons,D:\odoo-fauzan/odoo/addons -d minimarket --db_port 5432 --xmlrpc-port=8080  --limit-memory-hard 0 --limit-time-real=10000 -u odoofauzan

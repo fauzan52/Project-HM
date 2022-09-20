@@ -1,0 +1,19 @@
+Fitur :
+- Modul custome
+- Form view
+- Kanban view
+- One2many dan Many2one
+- Many2many
+- API Onchange (Tabel deskripsi produk)
+- Field compute (Total harga) (Tidak disimpan dalam DB)
+- Function action with button (First => Middle => End)
+- Atribut di XML (invisible/required/readonly)
+- Domain Produk
+- Search by name
+- Search by product
+- Filter by type status
+- Group by status
+- Prefix Sequence(ERROR)
+- Error message (Input tanggal kurang dari tanggal sekarang maka error)
+- Wizard View / Pop up view
+- Field & Button

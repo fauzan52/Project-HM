@@ -1,0 +1,9 @@
+pass postgress
+pass : root
+
+createuser -U postgres -P -s -e odoofauzan
+pass : root
+
+Apache Tomcat 8.5.38
+username : admin
+password : root

@@ -1,0 +1,35 @@
+Buat user postgres
+createuser -U postgres -P -s -e dbfauzan
+pass : root
+
+Cek sudah terinstall atau belum
+psql -U postgres
+
+Cek userdb postgres
+\du
+
+Install requirement
+pip3 install -r requirement.txt
+
+Run projek awal untuk update semua komponen
+python odoo-bin -c odoo.conf -u all
+Buka browser ketik localhost:8069
+
+Run projek 
+python odoo-bin -c odoo.conf
+Buka browser ketik localhost:8069
+
+Cek log
+buka git
+cd D:
+cd odoofauzan
+tail -f odoo.log
+
+Development
+web?debug=1#action=
+
+Update/upgrade otomatis saat run
+python odoo-bin -c odoo.conf -u algoritma_pembelian
+
+Install apps product => untuk fitur one2many dan many2one
+Install apps oum => untuk fitur one2many dan many2one	
